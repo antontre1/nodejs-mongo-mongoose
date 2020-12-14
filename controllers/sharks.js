@@ -12,7 +12,7 @@ exports.create = function (req, res) {
             if(err) {
             res.status(400).send('Unable to save shark to database');
         } else {
-            res.redirect('/sharks/getshark');
+            res.redirect('getshark');
         }
   });
                };
